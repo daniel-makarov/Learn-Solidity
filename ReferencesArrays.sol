@@ -8,11 +8,11 @@ contract Arrays {
     string[3] public name = ["Daniel", "Alex", "Mani"];
 
     function pushArrays() external {
-        names.push("Patel") // ["Daniel", "Alex", "Mani", "Veronica", "Patel"]
+        names.push("Patel"); // ["Daniel", "Alex", "Mani", "Veronica", "Patel"]
     }
 
     function popArrays() external {
-        names.pop() // ["Daniel", "Alex", "Mani", "Veronica"]
+        names.pop(); // ["Daniel", "Alex", "Mani", "Veronica"]
     }
 
     function lengthArrays() external {
@@ -20,7 +20,7 @@ contract Arrays {
     }
 
     function getArrays() external {
-        string firstName = names[0] //Daniel
-        string firstName = names[1] //Alex
+        string firstName = names[0]; //Daniel
+        string firstName = names[1]; //Alex
     }
 }
